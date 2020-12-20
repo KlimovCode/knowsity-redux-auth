@@ -1,0 +1,7 @@
+export const REGISTRATION_CHANGE_EMAIL_TEXT = 'REGISTRATION_CHANGE_EMAIL_TEXT'
+export const REGISTRATION_CHANGE_PASSWORD_TEXT = 'REGISTRATION_CHANGE_PASSWORD_TEXT'
+export const REGISTRATION_CHANGE_REPEAT_PASSWORD_TEXT = 'REGISTRATION_CHANGE_REPEAT_PASSWORD_TEXT'
+
+export const setEmailText = email => ({ type: REGISTRATION_CHANGE_EMAIL_TEXT, email })
+export const setPasswordText = password => ({ type: REGISTRATION_CHANGE_PASSWORD_TEXT, password })
+export const setRepeatPasswordText = password => ({ type: REGISTRATION_CHANGE_REPEAT_PASSWORD_TEXT, password })
